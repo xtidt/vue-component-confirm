@@ -1,6 +1,8 @@
 # imitate ios confirm popup 
 > Suitable for mobile terminals
 
+![img](http://www.tietuku.com/3e599ca9e703aeeb)
+
 > How to use
 
 ### first import files
