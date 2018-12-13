@@ -1,11 +1,12 @@
 # imitate ios confirm popup 
+
 > Suitable for mobile terminals
 
 ![img](http://i1.bvimg.com/671750/aa9471eb555e8540.png)
 
 > How to use
 
-### first import files
+### import files
 
 ```html
 <dialogConfirm 
