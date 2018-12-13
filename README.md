@@ -1,8 +1,37 @@
-# confirm
+# imitate ios confirm popup 
+> Suitable for mobile terminals
 
-> '
+> How to use
 
-## Build Setup
+### first import files
+
+```html
+<dialogConfirm 
+  :show-dialog='showDialog' 
+  :ok-text=''删除'' 
+  :cancel-text=''取消'' 
+  :content=''content'' 
+  v-on:confirm='confirmFn' 
+  v-on:cancel='cancelFn' 
+  :hide-confirm='false'>
+</dialogConfirm> 
+```
+
+### api
+```js
+/*
+* show-dialog: {boolean} Whether to display the dialog box
+* ok-text: text of Confirm button, default param is {good}
+* cancel-text: text of Cancel button, default param is {cancel}
+* hideConfirm: Whether to hide the delete button
+* hideCancle Whether to hide the cancel button
+* content: Dialog content text
+* confirmFn: callback of OK button
+* cancelFn: callback of Cancel button 
+*/
+```
+
+> Build Setup
 
 ``` bash
 # install dependencies
@@ -18,4 +47,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
