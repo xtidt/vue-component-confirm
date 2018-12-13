@@ -1,7 +1,7 @@
 # imitate ios confirm popup 
 > Suitable for mobile terminals
 
-![img](http://www.tietuku.com/3e599ca9e703aeeb)
+![img](http://i1.bvimg.com/671750/aa9471eb555e8540.png)
 
 > How to use
 
